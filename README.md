@@ -7,5 +7,12 @@ Open a multicolumn pdf (most of the time a scientific publication), and output a
 
 
 
-Use web2epub.py to generate epub.
+Use a slightly modified [web2epub.py](https://github.com/rupeshk/web2epub) to generate epub.
+
+
+
+How does it work?
+-----------------
+
+pdf ==convert==> image of each page ==decol.py==> images + htmls ==web2epub.py==> epub
 
